@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  env: {
-    defaultUrl: "http://localhost:3001",
-  },
+	env: {
+		defaultUrl: 'https://jsonplaceholder.typicode.com/',
+	},
 };
 
 export default nextConfig;

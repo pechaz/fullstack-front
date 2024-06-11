@@ -1,12 +1,12 @@
 export enum TaskStatus {
-  IN_PROGRESS,
-  DONE,
+	IN_PROGRESS,
+	DONE,
 }
 
 export interface ITask {
-  title: string;
-  description: string;
-  dueDate: string;
-  status: TaskStatus;
-  id: string;
+	title: string;
+	description: string;
+	dueDate: string;
+	status: TaskStatus;
+	id: string;
 }

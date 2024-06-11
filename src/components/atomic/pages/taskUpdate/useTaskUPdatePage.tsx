@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import { TaskHook } from "@/hooks";
+import { TaskHook } from '@/hooks';
 
 const useTaskUpdatePage = (id: string) => {
-  const { data, isFetching } = TaskHook.useTask(id);
+	const { data, isFetching } = TaskHook.useTask(id);
 
-  return {
-    data,
-    isFetching,
-  };
+	return {
+		data,
+		isFetching,
+	};
 };
 
 export default useTaskUpdatePage;

@@ -1,5 +1,5 @@
-import { ITask } from "@/models";
+import { ITask } from '@/models';
 
 export interface ITaskFormProps {
-  model?: ITask;
+	model?: ITask;
 }
