@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
 
 import { store } from '@/redux/store';
-import { getCookie } from '@/utils/CookieUtil';
 
 import './globals.css';
 import 'react-toastify/dist/ReactToastify.css';

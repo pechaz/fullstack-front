@@ -8,7 +8,7 @@ export default function middleware(req: NextRequest) {
 		req.nextUrl.pathname !== '/sign-in' &&
 		req.nextUrl.pathname !== '/sort'
 	) {
-		return NextResponse.redirect(new URL('/sign-in', req.url));
+		// return NextResponse.redirect(new URL('/sign-in', req.url));
 	}
 }
 
